@@ -1,0 +1,29 @@
+body {
+    background-image: url(MKB.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    max-width: 100%;
+    }
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset {
+    cursor: not-allowed;
+}
+#health {
+    color: red;
+    display: flex;
+}
+.health {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.players {
+    display: flex;
+    justify-content: center;
+    padding: 200px 135px 5px 140px;
+}
